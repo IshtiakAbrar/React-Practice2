@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+
+}
+body::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+.container{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1px;
+    list-style: none;
+    background-color: cadetblue;
+    }
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    min-width: 10rem;
+    font-size: 1rem;
+    background-color: cadetblue;
+    border: none;
+    padding: 0.5rem;
+    color: white;
+}
+.container button:hover{
+    background-color: darkslategray;
+}
+
+.container > .active {
+
+    background-color: #66CDAA;
+}
